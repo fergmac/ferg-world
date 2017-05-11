@@ -1,4 +1,8 @@
-
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+}
 .iceberg-container {
     display: flex;
     background: black;
@@ -8,7 +12,7 @@
         font-family: 'Roboto', sans-serif;
         font-size: 18px;
         text-transform: uppercase;
-        color: white;
+        color: lightgray;
         align-self: center;
     }
 }
@@ -16,4 +20,7 @@
     height: 60px;
     padding: 5px;
     color: white;
+}
+.header-push {
+    height: 60px
 }
