@@ -22,9 +22,18 @@
     background-size: cover;
 }
 .album-topper {
-    height: 40px;
-    background: black;
+
 }
+.albums-text {
+        height: 40px;
+        background: black;
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 26px;
+        text-align: center;
+        padding-top: 7px;
+    }
+
 .album-list {
     display: flex;
     flex-flow: row wrap;
@@ -45,10 +54,6 @@
     width: 100%;
 
 }
-.album-text {
-
-}
-
 .album:hover {
     opacity: .25;
 }
