@@ -1,0 +1,19 @@
+
+.iceberg-container {
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    padding: 0 5rem;
+    .title {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        color: white;
+        align-self: center;
+}
+}
+.iceberg-logo {
+    height: 60px;
+    padding: 5px;
+    color: white;
+}
