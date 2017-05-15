@@ -9,7 +9,8 @@
     "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "webpack-validator webpack.config.js",
-    "start": "webpack-dev-server"
+    "start": "npm run build",
+    "build": "webpack -p && webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.24.1",

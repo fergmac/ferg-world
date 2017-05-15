@@ -3,8 +3,7 @@ const webpack = require('webpack');
 module.exports = {
   entry: './js/main.js',
   output: {
-    path: './build',
-    filename: 'bundle.js'
+    filename: './build/bundle.js'
   },
 
   plugins: [
