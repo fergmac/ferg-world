@@ -1,4 +1,5 @@
-![Alt text](./screenshots/ferg-world1.png)
-![Alt text](./screenshots/ferg-world2.png)
+![Alt text](./screenshots/ferg-world.png)
 
 #ferg-world
+
+personal static webpage for experimenting with new features
