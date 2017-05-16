@@ -1,4 +1,4 @@
-![Alt text](./screenshots/ferg-world.png)
+![Alt text](./screenshots/ferg-world.jpg)
 
 #ferg-world
 
