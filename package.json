@@ -6,7 +6,7 @@
   "dependencies": {
     "jquery": "^3.2.1"
   },
-    "scripts": {
+  "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "validate": "webpack-validator webpack.config.js",
     "start": "npm run build",
@@ -19,6 +19,7 @@
     "browser-sync": "^2.18.8",
     "css-loader": "^0.28.1",
     "file-loader": "^0.11.1",
+    "gh-pages": "^1.0.0",
     "imports-loader": "^0.7.1",
     "node-sass": "^4.5.2",
     "sass-loader": "^6.0.5",
