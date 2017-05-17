@@ -35,6 +35,9 @@
     }
 
 .album-list {
+    display: -moz-box;       
+    display: -ms-flexbox;     
+    display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
 }

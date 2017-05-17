@@ -1,6 +1,9 @@
 
 .footer {
     height: 100px;
+    display: -moz-box;       
+    display: -ms-flexbox;     
+    display: -webkit-flex;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;

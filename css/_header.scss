@@ -4,6 +4,9 @@
     top: 0px;
 }
 .iceberg-container {
+    display: -moz-box;       
+    display: -ms-flexbox;     
+    display: -webkit-flex;
     display: flex;
     background: black;
     justify-content: space-between;
