@@ -40,9 +40,9 @@
     display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
-    height: 100%;
 }
 .album {
+    background: black;
     @include mobile {
         flex: 1 0 100%;
     }
