@@ -40,6 +40,7 @@
     display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
+    height: 100%;
 }
 .album {
     @include mobile {
@@ -49,13 +50,12 @@
         flex: 1 0 50%;
     }
     @include desktop {
-        flex: 1 0 25%;
+        flex: 1 0 23%;
     }
 }
 .album-image {
     height: 100%;
     width: 100%;
-
 }
 .album:hover {
     opacity: .25;
