@@ -21,9 +21,7 @@
     background: url(../images/forest-ferg.jpg) no-repeat center top;
     background-size: cover;
 }
-.album-topper {
 
-}
 .albums-text {
         height: 40px;
         background: black;
@@ -35,9 +33,6 @@
     }
 
 .album-list {
-    // display: -moz-box;       
-    // display: -ms-flexbox;     
-    // display: -webkit-flex;
     display: flex;
     flex-flow: row wrap;
 }
