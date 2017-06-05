@@ -16,25 +16,28 @@
     }
 }
 .banner-photo {
-    height: 700px;
-    width: 100%;
+    height: 90vh;
+    width: 100vw;
     background: url(../images/forest-ferg.jpg) no-repeat center top;
     background-size: cover;
 }
 
 .albums-text {
-        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 10vh;
+        width: 100vw;
         background: black;
         color: lightgray;
         font-family: 'Roboto', sans-serif;
-        font-size: 26px;
-        text-align: center;
-        padding-top: 7px;
+        font-size: 175%;
     }
 
 .album-list {
     display: flex;
     flex-flow: row wrap;
+    width: 100vw;
 }
 .album {
     background: black;

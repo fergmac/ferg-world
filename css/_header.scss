@@ -1,5 +1,5 @@
 .header {
-    width: 100%;
+    width: 100vw;
     position: fixed;
     top: 0px;
 }
@@ -7,20 +7,20 @@
     display: flex;
     background: black;
     justify-content: space-between;
-    padding: 0 5rem;
+    padding: 0 5em;
     .title {
         font-family: 'Roboto', sans-serif;
-        font-size: 18px;
+        font-size: 125%;
         text-transform: uppercase;
         color: lightgray;
         align-self: center;
     }
 }
 .iceberg-logo {
-    height: 60px;
-    padding: 5px;
+    height: 10vh;
+    padding: .3em .8em;
     color: white;
 }
 .header-push {
-    height: 60px
+    height: 10vh;
 }
