@@ -22,41 +22,47 @@
     background-size: cover;
 }
 .developer {
-    position: absolute;
-    bottom: 10%;
-    left: 10%;
-    font-family: 'Roboto', sans-serif;
-    border: 10px solid hsla(0%, 100%, 0%, .5);
-    border-radius: .2em;
-    background: black;
-    background-clip: padding-box;
-    padding: .3em .8em;
-    color: grey;
+    display: none;
+        @include desktop {
+        position: absolute;
+        bottom: 10%;
+        left: 10%;
+        font-family: 'Roboto', sans-serif;
+        border: 10px solid hsla(0%, 100%, 0%, .5);
+        border-radius: .2em;
+        background: black;
+        background-clip: padding-box;
+        padding: .3em .8em;
+        color: grey;
+    }
 }
 .musician {
-    position: absolute;
-    bottom: 10%;
-    right: 10%;
-    font-family: 'Roboto', sans-serif;
-    border: 10px solid hsla(0%, 100%, 0%, .5);
-    border-radius: .2em;
-    background: black;
-    background-clip: padding-box;
-    padding: .3em .8em;
-    color: grey;
+    display: none;
+        @include desktop {
+        position: absolute;
+        bottom: 10%;
+        right: 10%;
+        font-family: 'Roboto', sans-serif;
+        border: 10px solid hsla(0%, 100%, 0%, .5);
+        border-radius: .2em;
+        background: black;
+        background-clip: padding-box;
+        padding: .3em .8em;
+        color: grey;
+    }
 }
 
 .albums-text {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100px;
-        width: 100vw;
-        background: black;
-        color: lightgray;
-        font-family: 'Roboto', sans-serif;
-        font-size: 175%;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100vw;
+    background: black;
+    color: lightgray;
+    font-family: 'Roboto', sans-serif;
+    font-size: 175%;
+}
 
 .album-list {
     display: flex;
