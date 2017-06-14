@@ -10,8 +10,7 @@ module.exports = {
     new webpack.ProvidePlugin({
       $: 'jquery',
       jQuery: 'jquery'
-    }),
-    require('autoprefixer')
+    })
   ],
   module: {
     loaders: [
@@ -26,7 +25,7 @@ module.exports = {
         loaders: ['style-loader', 'css-loader', 'sass-loader?sourceMap']
       }, {
         test: /\.css$/,
-        loaders: ['style-loader', 'css-loader?']
+        loaders: ['style-loader', 'css-loader?', 'postcss-loader']
 
       }, {
         test: /\.(eot|svg|ttf|woff|woff2)$/,
