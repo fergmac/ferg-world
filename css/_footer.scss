@@ -1,7 +1,15 @@
 
 .footer {
-    height: 15vh;
-    width: 100vw;
+    -webkit-height: 15vh;
+    -moz-height: 15vh;
+    -ms-height: 15vh;
+    -o-height: 15vh;
+    height: 100px; 
+    -webkit-width: 100vw;
+    -moz-width: 100vw;
+    -ms-width: 100vw;
+    -o-width: 100vw;
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-around;
