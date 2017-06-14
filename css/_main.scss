@@ -15,15 +15,23 @@
       @content;  
     }
 }
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .banner-photo {
+    @include tablet {
     height: 90vh;
-    width: 100vw;
+    width: 100%;
     background: url(../images/forest-ferg.jpg) no-repeat center top;
     background-size: cover;
+    }
 }
 .developer {
     display: none;
         @include desktop {
+        display: block;
         position: absolute;
         bottom: 10%;
         left: 10%;
@@ -39,6 +47,7 @@
 .musician {
     display: none;
         @include desktop {
+        display: block;
         position: absolute;
         bottom: 10%;
         right: 10%;
@@ -57,7 +66,7 @@
     justify-content: center;
     align-items: center;
     height: 100px;
-    width: 100vw;
+    width: 100%;
     background: black;
     color: lightgray;
     font-family: 'Roboto', sans-serif;
@@ -67,7 +76,7 @@
 .album-list {
     display: flex;
     flex-flow: row wrap;
-    width: 100vw;
+    width: 100%;
 }
 .album {
     background: black;

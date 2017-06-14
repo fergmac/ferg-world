@@ -1,28 +1,40 @@
 
 .footer {
-    height: 100%;
-    width: 100vw;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-
-    .fa {
-    color: purple;
-    font-size: 50px;
-}
-
-@include desktop {
-    height: 100px; 
-    width: 100vw;
+    background: black;
+    height: 200px;
+    width: 100%;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-        .fa { 
-                    color: purple;
-            font-size: 125%;
+    z-index: -1;
+    .github-link {
+        display: none;
+    }
+    .linkedin-link {
+        display: none;
+    }
+    .fa {
+    padding: 0 50px;
+    color: purple;
+    font-size: 75px;
+    }
+@include tablet {
+    .github-link {
+        display: block;
         }
-}
-    background: black;
+    .linkedin-link {
+        display: block;
+    }
+        height: 100px; 
+        width: 100%;
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: center;
+        z-index: -1;
+        .fa { 
+            color: purple;
+            font-size: 150%;
+        }
+    }
 }
