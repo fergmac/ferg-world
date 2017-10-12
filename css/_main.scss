@@ -34,6 +34,20 @@ html, body {
 .banner-photo:hover{
     background-color: transparent;
 }
+.circular {
+    font-family: Roboto;
+    width: 35em;
+    height: 25em;
+    padding-top: 5em;
+    margin: 0 auto 0;
+}
+.circular path {
+    fill: none;
+}
+.circular svg {
+    display: block;
+    overflow: visible;
+}
 .developer {
     display: none;
         @include desktop {
