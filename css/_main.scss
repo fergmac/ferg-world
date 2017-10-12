@@ -21,14 +21,18 @@ html, body {
     box-sizing: border-box;
 }
 .banner-photo {
-    display: none;
     @include tablet {
-    display: block;
     height: 90vh;
     width: 100%;
     background: url(../images/forest-ferg.jpg) no-repeat center top;
     background-size: cover;
+    background-color: hsl(210, 100%, 50%);
+    background-blend-mode: luminosity;
+    transition: .5s background-color;
     }
+}
+.banner-photo:hover{
+    background-color: transparent;
 }
 .developer {
     display: none;
